@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Form Validation</title>
+</head>
+<body>
+<form action="submit.html" onsubmit="return Validation()">
+    <table class="table">
+        <tr>
+            <td>
+                <h1 style="text-align: center; background-color: aqua; justify-content: center; align-items: center;" align="center">FORM VALIDATION in JAVASCRIPT</h1>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="text" id="name" class="form-control mt-5" placeholder="User Name"></td>
+            <td><p class="fw-bold display-6 text-danger" id="namep"></p></td>
+        </tr>
+        <tr>
+        <td><input type="password" id="pass" class="form-control" placeholder="Password"></td>
+        <td><p class="paragraph" id="passp" class="fw-bold display-6 text-danger"></p></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit" class="btn btn-danger btn-lg display-1 fw-bold">
+            </td>
+        </tr>
+</form>
+    
+<script src="script.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
